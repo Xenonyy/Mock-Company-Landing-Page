@@ -13,6 +13,7 @@
 		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
 		crossorigin="anonymous">
 	</script>
+	<script src="./main.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -33,9 +34,50 @@
 					</svg>
 				</h1>
 			</header>
-			<nav id="nav">
+			<nav id="phone-nav">
 				<img src="./images/icon-hamburger.svg" alt="Menu" id="hamburger">
 			</nav>
+			<section id="phone-menu" class="hide" style="display: none;">
+                <div id="menu-container">
+                    <h3 class="menu-title">Product
+                        <img src="./images/icon-arrow-dark.svg" alt="Arrow Icon" class="arrow" id="arrow1">
+                    </h3>
+
+                    <div class="menu-items" id="menu-items1">
+                        <span>Overview</span>
+                        <span>Pricing</span>
+                        <span>Marketplace</span>
+                        <span>Features</span>
+                        <span>Integrations</span>
+                    </div>
+                    
+                    <h3 class="menu-title">Company
+                        <img src="./images/icon-arrow-dark.svg" alt="Arrow Icon" class="arrow" id="arrow2">
+                    </h3>
+                    
+                    <div class="menu-items" id="menu-items2">
+                        <span>About</span>
+                        <span>Team</span>
+                        <span>Blog</span>
+                        <span>Careers</span>
+                    </div>
+    
+                    <h3 class="menu-title">Connect
+                        <img src="./images/icon-arrow-dark.svg" alt="Arrow Icon" class="arrow" id="arrow3">
+                    </h3>
+                    
+                    <div class="menu-items" id="menu-items3">
+                        <span>Contact</span>
+                        <span>Newsletter</span>
+                        <span>LinkedIn</span>
+                    </div>
+                    <article id="bottom-menu">
+                        <p id="line"/>
+                        <h3 class="menu-title">Login</h3>
+                        <button id="sign-up" class="btn1">Sign Up</button>
+                    </article>
+                </div>
+            </section>
 			<section id="page-content">
 				<div class="text-container">
 					<div class="text1">A modern publishing platform</div>
@@ -136,10 +178,9 @@
                 <span>LinkedIn</span>
             </div>
         </footer>
-
-  <div class="attribution">
-	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-	Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="#">Armand Gonda</a>.
+		</div>
+	</body>
 </html>

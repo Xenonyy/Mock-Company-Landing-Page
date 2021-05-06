@@ -51,7 +51,7 @@ header {
     padding: 1.5em 1em 1em;
     position: relative;
 }
-#nav {
+#phone-nav {
     position: absolute;
     top: 4em;
     right: 2em;
@@ -110,6 +110,71 @@ header {
 }
 #bg-path {
     transform: rotate(22deg) scale(0.5) translate(-100px, -450px);
+}
+
+/* PHONE MENU */
+
+#phone-menu {
+    opacity: 1;
+    transition: opacity .35s linear;
+    position: absolute;
+    padding: 1em;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    color: var(--verydarkgrayblue);
+    text-align: center;
+    width: 100%;
+}
+#phone-content {
+    opacity: 1;
+    transition: opacity .35s linear;
+}
+.hide {
+    opacity: 0 !important;
+}
+#menu-container {
+    height: 70vh;
+    width: 92%;
+    background-color: var(--white);
+    border-radius: 10px;
+    filter: drop-shadow(0px 2px 10px grey);
+    padding: 0 3em;
+}
+.menu-items {
+    display: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    line-height: 2em;
+}
+.menu-title {
+    padding: 1em;
+    z-index: 1;
+    cursor: pointer;
+}
+.arrow {
+    width: auto;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+#line {
+    border: 1px solid var(--grayishblue);
+    margin: 1em 0 0;
+}
+#bottom-menu {
+    bottom: 0;
+    position: absolute;
+    width: 70%;
+    margin: 0 0 1em;
+}
+#sign-up {
+    background: linear-gradient(125deg, var(--verylightredgradient) 0%, var(--lightredgradient) 100%);
+    color: var(--white);
 }
 
 /* PAGE 2 */
