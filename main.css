@@ -111,3 +111,30 @@ header {
 #bg-path {
     transform: rotate(22deg) scale(0.5) translate(-100px, -450px);
 }
+
+/* PAGE 2 */
+
+#page2 {
+    height: fit-content;
+    min-height: 80vh;
+}
+.header {
+    color: var(--verydarkblackblue);
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 3em 0 2em;
+}
+#page2-text, #page3-text, #page4-text {
+    text-align: center;
+    color: var(--verydarkblackblue);
+    padding: 2em;
+    letter-spacing: .5px;
+    line-height: 1.8em;
+    z-index: 2;
+    position: relative;
+}
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1.5em 1em 0.8em;
+}
