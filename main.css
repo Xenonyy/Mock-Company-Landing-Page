@@ -374,6 +374,30 @@ footer {
     .text1 {font-size: 4rem;}
     .btn-container {justify-content: center;}
     .btn1, .btn2 {margin: 1em;}
+    #illustration1 {width: 60%; float: right; position: relative; right: -15%; top: -8em;}
+    #illustration2 {width: 65%;}
+    #illustration3 {width: 62%;}
+    .svg-container {overflow-x: clip; overflow-y: clip; height: 88%;}
+    #wrapper {overflow-x: clip;}
+    #page2-text, #page3-text, #page4-text {text-align: start; margin-left: 2em;}
+    .title {margin: 1em 0;}
+    .header {font-size: 2rem}
+    #whitediv {height: 18em;} #page3-bg {margin-top: 18em; height: 60vh;}
+    #page3-text {width: 50%; float: right; text-align: start;}
+    #page4-text {width: 50%; position: absolute; right: 0; margin-top: 10em;} #page4 {margin-top: 0;}
+    #illustration4 {width: 85%; float: left; position: relative; left: -25em;}
+
     #bg-path {transform: rotate(22deg) scale(0.8) translate(-400px, -650px);}
     #page1 {height: 85vh; min-height: 70vh;} #svg-bg1 {height: 85vh; min-height: 70vh;}
+
+    /* FOOTER */
+    .blogr {margin: 2em 2em; }
+    footer {flex-flow: row; height: 45vh; align-items: start;}
+    .footer-menu {align-items: flex-start; margin: 4em 8em;}
+    .footer-menu:hover > span:hover {text-decoration: underline; cursor: pointer;}
+}
+@media screen and (min-width: 1366px) {
+    #illustration1 {width: 50%; float: right; position: relative; right: -13%; top: -6em;}
+    #page2-text, #page3-text, #page4-text {margin-left: 8em;}
+    #illustration4 {width: 60%;}
 }
