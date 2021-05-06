@@ -138,3 +138,46 @@ header {
     font-weight: 600;
     margin: 1.5em 1em 0.8em;
 }
+
+/* PAGE 3 */
+
+#page3 {
+    min-height: 100vh;
+}
+.svg-container {
+    position: absolute;
+    z-index: 1;
+    overflow-x: clip;
+}
+#whitediv {
+    height: 16em;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 1;
+    position: absolute;
+}
+#illustration3 {
+    height: auto;
+    position: relative;
+    top: -93em;
+    max-width: 100vw;
+}
+#page3-bg {
+    margin-top: 16em;
+    background-color: var(--verydarkgrayblue);
+    position: absolute;
+    height: 90vh;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 35px;
+    width: 100%;
+}
+#page3-text {
+    color: var(--white);
+    margin: 10em 0;
+}
+#page3-title {
+    margin: .5em 0;
+    font-size: 2.5rem; 
+    line-height: 1.2em; 
+    padding: 0;
+}
