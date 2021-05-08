@@ -35,6 +35,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+Overall 10-12 hours of work.
+
 ## Author
 
 * **Armand Gonda**
