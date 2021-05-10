@@ -9,6 +9,7 @@ html, body {
     scroll-behavior: smooth;
     font-family: var(--font1);
     color: var(--white);
+    max-width: 100vw;
 }
 img {
     margin: auto;
@@ -227,6 +228,8 @@ header {
     position: relative;
     top: -93em;
     max-width: 100vw;
+    overflow-y: clip;
+    overflow-x: clip;
 }
 #page3-bg {
     margin-top: 16em;
